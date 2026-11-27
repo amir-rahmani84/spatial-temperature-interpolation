@@ -1,0 +1,26 @@
+{
+  "cross_validation_predictions.csv": {
+    "records": 575,
+    "sha256": "e6aa8e7799c6e70a47b81534185cf7f0fc68bec7eb9e3300f28542f1c86721b6",
+    "maximum_numeric_difference": 0.0,
+    "byte_identical": true
+  },
+  "cross_validation_metrics.csv": {
+    "records": 25,
+    "sha256": "872d4063e79889ce3f81c751558b798aac29fa6a31964b2a2fd07c7614614d51",
+    "maximum_numeric_difference": 0.0,
+    "byte_identical": true
+  },
+  "topsis_rankings.csv": {
+    "records": 75,
+    "sha256": "581a72c625a7f41937b2819915901b21ae2522424e0ce1b3440cc2eaf6a7869e",
+    "maximum_numeric_difference": 0.0,
+    "byte_identical": true
+  },
+  "topsis_weights.csv": {
+    "records": 50,
+    "sha256": "9252716bb89b1221baebac5f95858d5594d83f14e2f1aac5e5cbc10fad145b9d",
+    "maximum_numeric_difference": 0.0,
+    "byte_identical": true
+  }
+}

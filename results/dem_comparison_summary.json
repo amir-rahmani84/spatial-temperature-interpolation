@@ -1,0 +1,29 @@
+{
+  "n_locations": 57536,
+  "difference_definition": "replacement minus historical, metres",
+  "elevation": {
+    "mean_signed_difference": -2.0230290600667407,
+    "mean_absolute_difference": 6.431851362625139,
+    "rmse": 8.806733483196192,
+    "max_absolute_difference": 84.0,
+    "min": -84.0,
+    "max": 70.0,
+    "median": -2.0,
+    "p05": -16.0,
+    "p95": 11.0
+  },
+  "elevation_pearson_correlation": 0.9999465350367652,
+  "idw_temperature_change": {
+    "mean_signed_difference": 0.013149688890433817,
+    "mean_absolute_difference": 0.0418070338570634,
+    "rmse": 0.05724376764077525,
+    "max_absolute_difference": 0.5459999999999999,
+    "min": -0.45499999999999996,
+    "max": 0.5459999999999999,
+    "median": 0.013,
+    "p05": -0.0715,
+    "p95": 0.104
+  },
+  "temperature_change_rationale": "For unchanged training values, coordinates and lapse rate, IDW new minus old = lapse_rate*(new height - old height), identically for every period; other four methods use no DEM.",
+  "cause_assessment": "Inspect spatial plot and metadata. Unknown historical datum/source prevents causal attribution; an offset alone does not establish ellipsoidal/geoid correction."
+}

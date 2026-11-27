@@ -1,0 +1,17 @@
+{
+  "tests": 16,
+  "notebook_sequential_execution": "passed; full maps",
+  "srtm_tiles": 6,
+  "dem_targets": 57536,
+  "temperature_surfaces": 25,
+  "numerical_predictions_unchanged": 575,
+  "aggregate_metrics_unchanged": 25,
+  "topsis_records_unchanged": 75,
+  "configuration_and_numerical_functions_unchanged": true,
+  "report_pages": 12,
+  "report_compiler": "pdfLaTeX, pdfTeX 1.40.29, TeX Live 2026",
+  "report_passes": 2,
+  "report_overfull_or_undefined_warnings": 0,
+  "software_license": "MIT; Copyright (c) 2026 Seyedamir Rahmani",
+  "remote_changes": false
+}

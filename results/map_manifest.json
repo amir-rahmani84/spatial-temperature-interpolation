@@ -1,0 +1,258 @@
+{
+  "methods": [
+    "IDW",
+    "RBF Thin-Plate Spline",
+    "RBF Multiquadric",
+    "Ordinary Kriging",
+    "EBK-inspired local kriging"
+  ],
+  "external_dem_used": true,
+  "color_limits_celsius": {
+    "annual": [
+      -4.0,
+      21.0
+    ],
+    "spring": [
+      -6.0,
+      19.0
+    ],
+    "summer": [
+      4.0,
+      29.0
+    ],
+    "fall": [
+      -3.0,
+      22.0
+    ],
+    "winter": [
+      -13.0,
+      13.0
+    ]
+  },
+  "dem_provenance": {
+    "product": "NASA SRTM GL1 v3, distributed by OpenTopography",
+    "product_doi": "10.5069/G9445JDF",
+    "platform": "https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1",
+    "acquired_on": "2026-11-27",
+    "horizontal_crs": "EPSG:4326",
+    "vertical_datum": "EGM96 orthometric",
+    "units": "metres",
+    "native_spacing_arcseconds": 1,
+    "sampling": "bilinear at geographic target centres on original aligned raster lattice; no area aggregation or geoid conversion",
+    "tiles": [
+      {
+        "filename": "N36E049.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          48.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          37.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "5fdea7f218f3bdc05fe42d360d32a6c50b2b68a2c126c99a0e7da24690a70d81",
+        "tile_id": "N36E049",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N36E049.tif",
+        "verified_at_utc": "2026-11-27T09:15:38Z"
+      },
+      {
+        "filename": "N36E050.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          49.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          37.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "08582dda55623edfead9b4d9b7daa468c89470969ad3b866ec4cb771303e7fa1",
+        "tile_id": "N36E050",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N36E050.tif",
+        "verified_at_utc": "2026-11-27T09:15:39Z"
+      },
+      {
+        "filename": "N37E048.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          47.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          38.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "d735880f7c86ac6641510c04ca9ee71285a6034ef75b266e832eef420075cebc",
+        "tile_id": "N37E048",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N37E048.tif",
+        "verified_at_utc": "2026-11-27T09:15:39Z"
+      },
+      {
+        "filename": "N37E049.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          48.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          38.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "a6871edc445b11990382fdcc00cfc3e93458eec43bb968a31c94ce36e35b6476",
+        "tile_id": "N37E049",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N37E049.tif",
+        "verified_at_utc": "2026-11-27T09:15:40Z"
+      },
+      {
+        "filename": "N37E050.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          49.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          38.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "1d3a940c48d18433eff04779b3a6e5942aaead5efaa211781359dfb20c7db16e",
+        "tile_id": "N37E050",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N37E050.tif",
+        "verified_at_utc": "2026-11-27T09:15:50Z"
+      },
+      {
+        "filename": "N38E048.tif",
+        "crs": "EPSG:4326",
+        "resolution": [
+          0.0002777777777777778,
+          0.0002777777777777778
+        ],
+        "shape": [
+          3601,
+          3601
+        ],
+        "transform": [
+          0.0002777777777777778,
+          0.0,
+          47.99986111111111,
+          0.0,
+          -0.0002777777777777778,
+          39.00013888888889,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nodata": -32768.0,
+        "tags": {
+          "OVR_RESAMPLING_ALG": "NEAREST",
+          "AREA_OR_POINT": "Point"
+        },
+        "band_tags": {},
+        "sha256": "03deb9d540d16b27894eb7565bbf61a2dce07de39a9a57ebd7520f0a3d66fc85",
+        "tile_id": "N38E048",
+        "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N38E048.tif",
+        "verified_at_utc": "2026-11-27T09:16:36Z"
+      }
+    ],
+    "output_sha256": "557f228540f3ebc2b066abfc86fb1dafb337ef091216378630d762e592db449f",
+    "n_targets": 57536,
+    "boundary_sha256": "512bb441e0acfb5d39dbdfa8cba8dae211aba2f6d87fa331f2ed89b5313bf5ef",
+    "vertical_compatibility": "ERA5 z/9.80665 is EGM96-referenced geopotential height over land, not orthometric height. Approximation retained only for fixed lapse correction; no ellipsoidal transformation or change to LOOCV.",
+    "rights": "USGS public-domain elevation data; GADM raw geometry excluded. CSV is sampled elevations at an existing study grid, not a redistributable GADM polygon.",
+    "rasterio_version": "1.5.2",
+    "gdal_version": "3.12.2",
+    "attribution": "NASA Shuttle Radar Topography Mission (SRTM) (2013). Shuttle Radar Topography Mission (SRTM) Global. Distributed by OpenTopography. https://doi.org/10.5069/G9445JDF"
+  },
+  "figures": {
+    "annual.png": "c365eb0efabfec908f7129326367e5c8a5b499c7cb991be56b2a9030b206bf14",
+    "spring.png": "84de364b63f14147ceca221bb6eb95a9b3b3b6b8a722d5105ed0ef6581c5d4d4",
+    "summer.png": "8ba5027391ec3a7c57cee2177bdbf1e10cdaf3f799a7cce04629646eacf715e2",
+    "fall.png": "3bb2260cb4227ec930e65fabb02eada7aeaec5b11974618c8f8e040e8d4ab5bc",
+    "winter.png": "a8381cf59e7a148ea8cc57b6f6c6ed8e3f1af452c6f59d5a0f754e6fc3ad0988"
+  }
+}

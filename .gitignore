@@ -1,0 +1,38 @@
+# Inputs: authorization/provenance is not established for public redistribution.
+data/*
+!data/README.md
+*.nc
+gadm*.json
+gilan_dem*.csv
+.env
+.env.*
+.cdsapirc
+*.key
+*.pem
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+# Large reconstruction arrays and DEM-derived target elevations remain local.
+results/map_*.npz
+results/map_grid.csv
+*.tif
+*.tiff
+*.hgt
+data/srtm/
+data/dem_comparison/
+# LaTeX intermediates; keep the authoritative source and compiled PDF.
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

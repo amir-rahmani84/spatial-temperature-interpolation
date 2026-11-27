@@ -1,0 +1,82 @@
+{
+  "annual": {
+    "targets": 57536,
+    "idw_mean_change": 0.013149688890433817,
+    "idw_rmse_change": 0.05724376764077524,
+    "idw_maximum_absolute_change": 0.5460000000000012,
+    "other_methods_maximum_difference": {
+      "RBF Thin-Plate Spline": 0.0,
+      "RBF Multiquadric": 0.0,
+      "Ordinary Kriging": 0.0,
+      "EBK-inspired local kriging": 0.0
+    },
+    "color_limits_celsius": [
+      -4.0,
+      21.0
+    ]
+  },
+  "spring": {
+    "targets": 57536,
+    "idw_mean_change": 0.013149688890433811,
+    "idw_rmse_change": 0.05724376764077524,
+    "idw_maximum_absolute_change": 0.5460000000000012,
+    "other_methods_maximum_difference": {
+      "RBF Thin-Plate Spline": 0.0,
+      "RBF Multiquadric": 0.0,
+      "Ordinary Kriging": 0.0,
+      "EBK-inspired local kriging": 0.0
+    },
+    "color_limits_celsius": [
+      -6.0,
+      19.0
+    ]
+  },
+  "summer": {
+    "targets": 57536,
+    "idw_mean_change": 0.013149688890433811,
+    "idw_rmse_change": 0.05724376764077524,
+    "idw_maximum_absolute_change": 0.5460000000000012,
+    "other_methods_maximum_difference": {
+      "RBF Thin-Plate Spline": 0.0,
+      "RBF Multiquadric": 0.0,
+      "Ordinary Kriging": 0.0,
+      "EBK-inspired local kriging": 0.0
+    },
+    "color_limits_celsius": [
+      4.0,
+      29.0
+    ]
+  },
+  "fall": {
+    "targets": 57536,
+    "idw_mean_change": 0.013149688890433813,
+    "idw_rmse_change": 0.05724376764077524,
+    "idw_maximum_absolute_change": 0.5460000000000012,
+    "other_methods_maximum_difference": {
+      "RBF Thin-Plate Spline": 0.0,
+      "RBF Multiquadric": 0.0,
+      "Ordinary Kriging": 0.0,
+      "EBK-inspired local kriging": 0.0
+    },
+    "color_limits_celsius": [
+      -3.0,
+      22.0
+    ]
+  },
+  "winter": {
+    "targets": 57536,
+    "idw_mean_change": 0.013149688890433817,
+    "idw_rmse_change": 0.057243767640775246,
+    "idw_maximum_absolute_change": 0.5460000000000012,
+    "other_methods_maximum_difference": {
+      "RBF Thin-Plate Spline": 0.0,
+      "RBF Multiquadric": 0.0,
+      "Ordinary Kriging": 0.0,
+      "EBK-inspired local kriging": 0.0
+    },
+    "color_limits_celsius": [
+      -13.0,
+      13.0
+    ]
+  }
+}

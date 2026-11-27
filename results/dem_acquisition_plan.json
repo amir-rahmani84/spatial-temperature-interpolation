@@ -1,0 +1,39 @@
+{
+  "product": "NASA SRTM GL1 v3, distributed by OpenTopography",
+  "product_doi": "10.5069/G9445JDF",
+  "platform": "https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1",
+  "boundary_bounds_west_south_east_north": [
+    48.4351,
+    36.5605,
+    50.5765,
+    38.4455
+  ],
+  "target_bounds_west_south_east_north": [
+    48.4400000000001,
+    36.56500000000003,
+    50.57500000000119,
+    38.445000000000995
+  ],
+  "target_count": 57536,
+  "tile_ids": [
+    "N36E049",
+    "N36E050",
+    "N37E048",
+    "N37E049",
+    "N37E050",
+    "N38E048"
+  ],
+  "sampling": "bilinear at existing target centres; no area averaging",
+  "horizontal_crs": "EPSG:4326",
+  "vertical_datum": "EGM96 orthometric",
+  "units": "metres",
+  "acquisition_status": "documented rasters prepared; see output provenance",
+  "input_sha256": {
+    "N36E049.tif": "5fdea7f218f3bdc05fe42d360d32a6c50b2b68a2c126c99a0e7da24690a70d81",
+    "N36E050.tif": "08582dda55623edfead9b4d9b7daa468c89470969ad3b866ec4cb771303e7fa1",
+    "N37E048.tif": "d735880f7c86ac6641510c04ca9ee71285a6034ef75b266e832eef420075cebc",
+    "N37E049.tif": "a6871edc445b11990382fdcc00cfc3e93458eec43bb968a31c94ce36e35b6476",
+    "N37E050.tif": "1d3a940c48d18433eff04779b3a6e5942aaead5efaa211781359dfb20c7db16e",
+    "N38E048.tif": "03deb9d540d16b27894eb7565bbf61a2dce07de39a9a57ebd7520f0a3d66fc85"
+  }
+}
